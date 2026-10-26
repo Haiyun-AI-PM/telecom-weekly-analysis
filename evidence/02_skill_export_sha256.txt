@@ -1,0 +1,20 @@
+源目录：本机已安装的个人 Skill telecom-weekly-analysis（发布副本已隐去绝对路径）
+导出目录：skill/telecom-weekly-analysis
+源文件数（排除 ['_meta.json']）: 10
+导出文件数: 10
+
+| 文件 | 字节 | SHA256（源） | SHA256（导出） | 结果 |
+| SKILL.md | 8137 | c8da586705775b7aee0cce21556380687a20b53c1f2f4454d92df1785b2bbd3e | c8da586705775b7aee0cce21556380687a20b53c1f2f4454d92df1785b2bbd3e | 一致 |
+| evals/evals.json | 129 | 8c01bd8cae7a566009af5a3a1afd8ac8b46efefbbc44db42ce43e98fef7c7483 | 8c01bd8cae7a566009af5a3a1afd8ac8b46efefbbc44db42ce43e98fef7c7483 | 一致 |
+| references/eval-cases.yaml | 227 | dd7e5ef72bd63ae3cd2aed184b8202a713f2341c115f04a9e1aa94a1ec5c7451 | dd7e5ef72bd63ae3cd2aed184b8202a713f2341c115f04a9e1aa94a1ec5c7451 | 一致 |
+| references/governance-boundaries.md | 571 | b5156ece38fe404a51e0e0dac427a691ce8e4d9e260c6600459f36dd1360eb7b | b5156ece38fe404a51e0e0dac427a691ce8e4d9e260c6600459f36dd1360eb7b | 一致 |
+| references/input-contract.md | 829 | a8d8b2b241bc3c056b33a69a19317f8d38187a05f7a75ccd1f0eb0e463179271 | a8d8b2b241bc3c056b33a69a19317f8d38187a05f7a75ccd1f0eb0e463179271 | 一致 |
+| references/kstar-evolution.md | 585 | 4c9e73e8d3e80186b0eb1c51dad9fc1af94a36dea295c9aed37183b188504acd | 4c9e73e8d3e80186b0eb1c51dad9fc1af94a36dea295c9aed37183b188504acd | 一致 |
+| references/ontology-mapping.md | 308 | 688b876c00f19849349b7ea1ed65df025968c5db4a1b9fe7e6d00fce07e17b51 | 688b876c00f19849349b7ea1ed65df025968c5db4a1b9fe7e6d00fce07e17b51 | 一致 |
+| references/output-contract.md | 419 | 74ab2d215baa37aa8bd63757eae1110ad67723c49680075adb360adcfbf968dd | 74ab2d215baa37aa8bd63757eae1110ad67723c49680075adb360adcfbf968dd | 一致 |
+| references/skill-spec.yaml | 624 | 4d5a3e2eb40a0c2866f1d8f48a27afcfc87c0677282a25a51aecfa660d2a96fa | 4d5a3e2eb40a0c2866f1d8f48a27afcfc87c0677282a25a51aecfa660d2a96fa | 一致 |
+| references/validation-contract.md | 560 | abe420ae2ecdebf988ae0c854971a62fea1a3e37339da2592baf170d28e8e7e8 | abe420ae2ecdebf988ae0c854971a62fea1a3e37339da2592baf170d28e8e7e8 | 一致 |
+
+缺失文件: 无
+多余文件: 无
+整体结论: 全部逐字节一致
