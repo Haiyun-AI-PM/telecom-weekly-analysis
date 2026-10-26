@@ -1,0 +1,51 @@
+{
+  "data_type": "人工编写的教学样例，非真实客户经营数据",
+  "grid": "社区宽带业务网格",
+  "unit": "去重客户数",
+  "metric_order": [
+    "leads",
+    "effective_contacts",
+    "appointments",
+    "orders"
+  ],
+  "metric_definitions": {
+    "leads": "当周新登记线索客户数",
+    "effective_contacts": "这批线索中当周完成双向有效沟通的客户数",
+    "appointments": "这批已有效沟通客户中当周确认预约的客户数",
+    "orders": "这批已预约客户中当周完成宽带办理的客户数"
+  },
+  "cohort_rule": "各周均以当周新登记线索为独立同周漏斗，按客户去重、逐级嵌套；跨周跟进与办理不计入本表。同周比较可算转化，不能代表最终生命周期转化。所有数字均为教学设定。",
+  "source_id": "REPORT-B",
+  "prior": {
+    "period": "2026-10-12至2026-10-18",
+    "leads": 200,
+    "effective_contacts": 160,
+    "appointments": 40,
+    "orders": 16
+  },
+  "current": {
+    "period": "2026-10-19至2026-10-25",
+    "leads": 240,
+    "effective_contacts": 144,
+    "appointments": 48,
+    "orders": 24
+  },
+  "field_notes": [
+    {
+      "id": "B-N1",
+      "text": "新增线索中有一批来自新社区活动，接触时间和来源结构与上周不同。",
+      "evidence_level": "质性反馈，未给分渠道数量，待补证"
+    },
+    {
+      "id": "B-N2",
+      "text": "本周有人使用了费用解释卡，但没有逐客户使用记录或对照组。",
+      "evidence_level": "不能据此将变化归因于解释卡"
+    }
+  ],
+  "missing_evidence": [
+    "分渠道分产品明细",
+    "客户取消原因统计",
+    "触达时段与接触次数",
+    "对照试验与动作实施证据"
+  ]
+}
